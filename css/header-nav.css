@@ -1,0 +1,48 @@
+header {
+    font-family: "Shadows Into Light", sans-serif;
+    height: 52px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(90deg,  rgb(8, 3, 39), rgb(47, 93, 219));
+    color: rgb(255, 229, 229);
+    z-index: 1;
+}
+
+
+
+nav {
+    text-align: center;
+    position: relative;
+} 
+
+nav li {
+    display: inline-block;
+    margin: 16px 10px;
+}
+
+nav li:not(:last-child):after {
+   
+    margin-left: 24px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(255, 229, 229);
+   
+}
+
+
+
+nav li a:hover{
+    color: rgba(255, 229, 229, 0.5);
+   
+
+}
+
+@media screen and (max-width:1040px) {
+    header {
+        display: none;
+    }
+}
+
