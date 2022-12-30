@@ -1,6 +1,6 @@
 # Alura-Include---Suzano
 
-##  Portifólio criado com base nos curso do Projeto Alura Include - Suzano
+##  Portifólio criado tendo como base os aprendizados dos cursos do Projeto Alura Include - Suzano
 
 
 <div align="center">
